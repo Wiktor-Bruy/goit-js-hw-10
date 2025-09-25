@@ -42,7 +42,7 @@ function getUserDate() {
     isActiveBtn = true;
     iziToast.success({
       theme: 'dark',
-      title: 'Start timer',
+      title: 'Corect date',
       titleColor: '#fff',
       backgroundColor: 'gren',
       position: 'topRight',
