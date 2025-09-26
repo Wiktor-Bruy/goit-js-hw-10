@@ -4,9 +4,9 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
 const form = document.querySelector('.form');
-form.addEventListener('submit', createPromis);
+form.addEventListener('submit', createPromise);
 
-function createPromis(event) {
+function createPromise(event) {
   event.preventDefault();
   const delay = event.target.elements.delay.value;
   const state = event.target.elements.state.value;
@@ -16,7 +16,7 @@ function createPromis(event) {
       theme: 'dark',
       title: 'Warning',
       titleColor: '#fff',
-      message: 'Not corection delay!',
+      message: 'Incorrect delay!',
       messageColor: '#fff',
       backgroundColor: 'red',
       position: 'topRight',
@@ -39,7 +39,7 @@ function createPromis(event) {
           theme: 'dark',
           message: value,
           messageColor: '#fff',
-          backgroundColor: 'gren',
+          backgroundColor: 'green',
           position: 'topRight',
         });
       })
