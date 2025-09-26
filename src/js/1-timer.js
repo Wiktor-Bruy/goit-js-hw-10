@@ -44,7 +44,7 @@ function getUserDate() {
       theme: 'dark',
       title: 'Corect date',
       titleColor: '#fff',
-      backgroundColor: 'gren',
+      backgroundColor: 'green',
       position: 'topRight',
     });
   } else if (userDate.getTime() <= Date.now() && isActiveBtn === true) {
